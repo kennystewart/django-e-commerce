@@ -5,8 +5,8 @@
 This repository is a boilerplate Django project for quickly getting started.
 
 # Requirements
-    Django version 2.2.13 or later
-    Python version = 3.7 or later
+*  Django version 2.2.13+
+*  Python version 3.7+ 
 
 # Getting started
 

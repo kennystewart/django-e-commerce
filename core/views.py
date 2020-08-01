@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.views.generic import ListView, DetailView 
 from .models import Item
 
 
@@ -14,4 +15,7 @@ def checkout(request):
 
 
 def home(request):
-    return render(request, "home.html")
+    context = {
+        'items': Item.objects.all()
+    }
+    return render(request, "home.html",context)

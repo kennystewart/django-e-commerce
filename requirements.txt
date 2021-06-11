@@ -11,7 +11,7 @@ distro==1.4.0
 Django==2.2.24
 django-allauth==0.39.1
 django-crispy-forms==1.9.2
-django-debug-toolbar==1.10.1
+django-debug-toolbar==1.11.1
 html5lib==1.0.1
 idna==2.8
 ipaddr==2.2.0
